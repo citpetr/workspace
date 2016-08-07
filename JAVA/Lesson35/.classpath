@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.launching.macosx.MacOSXType/JVM Contents (MacOS X Default)">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/com.sun.enterprise.jst.server.runtimeTarget/GlassFish Server Open Source Edition 3 (Java EE 6)">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="/Users/yfain11/Documents/books/JavaTutorial2/Lessons/Spring_Jars/org.springframework.web.servlet-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/yfain11/Documents/books/JavaTutorial2/Lessons/Spring_Jars/org.springframework.web-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/yfain11/Documents/books/JavaTutorial2/Lessons/Spring_Jars/org.springframework.expression-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/yfain11/Documents/books/JavaTutorial2/Lessons/Spring_Jars/org.springframework.core-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/yfain11/Documents/books/JavaTutorial2/Lessons/Spring_Jars/org.springframework.context-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/yfain11/Documents/books/JavaTutorial2/Lessons/Spring_Jars/org.springframework.beans-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/yfain11/Documents/books/JavaTutorial2/Lessons/Spring_Jars/org.springframework.asm-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/yfain11/Documents/books/JavaTutorial2/Lessons/Spring_Jars/commons-logging-api-1.1.1.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
