@@ -1,0 +1,44 @@
+h1 {
+    color: darkolivegreen;
+    text-align: center;
+}
+
+body {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+    background-color: cornsilk;
+}
+
+#first {
+    width: 20%;
+    color: darkcyan;
+    float: right;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    margin: 20px;
+    font-size: 0.9em;
+    border-bottom: solid 1px azure;
+    border-left: solid 1px azure;
+    box-shadow: -3px 3px 5px lightblue;
+    border-bottom-left-radius: 14px;
+}
+
+#lepralogo {
+    float: left;
+    padding: 20px;
+    padding-bottom: 40px;
+    margin: 15px;
+}
+
+#second {
+    color: steelblue;
+    font-size: 1.1em;
+}
+
+#video {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}

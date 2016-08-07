@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "Bugulme";
+    src: url(fonts/EmblemaOne-Regular.ttf);
+}
+p {
+    font-size: xx-large;
+    font-family: Bugulme;
+}
