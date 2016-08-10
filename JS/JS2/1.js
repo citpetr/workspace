@@ -1,19 +1,21 @@
-var test1 = "kulkdjs";
-var test2 = 123;
-var test3 = true;
-var test4 = {};
-var test5 = [];
-var test6 = "food" * 1000;
-var test7 = { "khlkhdfkh": 123 };
-var test8 = ["lkjlkjdskj", 387];
-var test9 = null;
+function validateCardNumber(cardNumber) {
+    if (cardNumber.length > 19 || cardNumber < 16) {
+        return false;
+    }
+    var cardNum = cardNumber.split("-");
+    var card = "";
+    for (var i = 0; i < cardNum.length; i++) {
+        card = card + cardNum[i];
+    }
+    if (isNaN(card)) {
+        console.log("Information is not correct...");
+        return false;
+    }
+    console.log(card);
+    return true;
+}
 
-console.log(typeof test1);
-console.log(typeof test2);
-console.log(typeof test3);
-console.log(typeof test4);
-console.log(typeof test5);
-console.log(test6);
-console.log(typeof test7);
-console.log(typeof test8);
-console.log(typeof test9);
+validateCardNumber("1234-1234-1234-3455");
+validateCardNumber("1234-12341234-3455");
+validateCardNumber("1234123412343455");
+validateCardNumber("kjjk-ueue-8834-jdj8");
