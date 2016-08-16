@@ -1,21 +1,18 @@
-function validateCardNumber(cardNumber) {
-    if (cardNumber.length > 19 || cardNumber < 16) {
-        return false;
+window.onload = init;
+
+function init() {
+    var images = document.getElementsByTagName("img");
+    for (var i = 0; i < images.length; i++) {
+        images[i].onclick = showAnswer;
+        images[i].setAttribute("width", "200px");
+        images[i].setAttribute("width", "200px");
+        images[i].setAttribute("style", "box-shadow: 3px 3px 17px")
     }
-    var cardNum = cardNumber.split("-");
-    var card = "";
-    for (var i = 0; i < cardNum.length; i++) {
-        card = card + cardNum[i];
-    }
-    if (isNaN(card)) {
-        console.log("Information is not correct...");
-        return false;
-    }
-    console.log(card);
-    return true;
 }
 
-validateCardNumber("1234-1234-1234-3455");
-validateCardNumber("1234-12341234-3455");
-validateCardNumber("1234123412343455");
-validateCardNumber("kjjk-ueue-8834-jdj8");
+function showAnswer(eventObj) {
+    var image = eventObj.target;
+    var name = image.id;
+    name = name + ".jpg";
+    image.src = name;
+}

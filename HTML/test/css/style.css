@@ -1,0 +1,8 @@
+#mainMenu {
+    background-color: darkorange;
+    text-decoration: none;
+}
+
+#mainMenu > ul {
+    display: inline;
+}
