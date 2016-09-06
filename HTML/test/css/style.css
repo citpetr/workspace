@@ -1,20 +1,4 @@
-html {
-    padding: 0px;
-    margin: 0px;
-}
-
-#wrapper {
-    width: 70%;
-    margin-top: 0px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.col-3 {
-    width: 30%;
-    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
-    float: left;
-    padding: 10px;
-    color: darkcyan;
-    background-color: plum;
+#enter {
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
