@@ -1,0 +1,10 @@
+@import "sass/materialize.scss";
+@import "variables.scss";
+
+.myclass {
+	color: $mycolor;
+}
+.blockl {
+	background-color: blue;
+	color: white;
+}

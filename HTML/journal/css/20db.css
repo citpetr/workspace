@@ -1,6 +1,0 @@
-@font-face {
-    font-family: '20 db';
-    src: local('20 db'), url('20db.woff2') format('woff2'), url('20db.woff') format('woff'), url('20db.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-}

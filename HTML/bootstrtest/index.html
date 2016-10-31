@@ -2,54 +2,93 @@
 <html>
 
 <head>
-    <title>Шаблон Bootstrap 101</title>
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Whitesquare</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="http://fonts.googleapis.com/css?family=Oswald:400,300" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 
 <body>
-    <header>
+    <div class="wrapper container">
+        <header>
+            <a href="/"><img src="images/logo.png" alt="Whitesquare logo"></a>
+            <form name="search" action="#" method="get" class="form-inline form-search pull-right">
+                <div class="input-group">
+                    <label for="searchInput" class="sr-only">Search</label>
+                    <input type="text" class="form-control" id="searchInput" name="search" value="" placeholder="Search">
+                    <div class="input-group-btn">
+                        <button type="submit" class="btn btn-primary">GO</button>
+                    </div>
+                </div>
+
+            </form>
+        </header>
+
+        <nav class="navbar navbar-default">
+            <ul class="nav navbar-nav">
+                <li><a href="/home/">Home</a></li>
+                <li class="active"><a href="/about/">About us</a></li>
+                <li>
+                    <a href="/services/">Services</a>
+                </li>
+                <li>
+                    <a href="/partners/">Partners</a>
+                </li>
+                <li>
+                    <a href="/customers/">Customers</a>
+                </li>
+                <li>
+                    <a href="/projects/">Projects</a>
+                </li>
+                <li>
+                    <a href="/careers/">Careers</a>
+                </li>
+                <li>
+                    <a href="/contact/">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="heading">
+            <h1>About us</h1>
+        </div>
+
         <div class="row">
-            <div class="col-sm-12">
-                <h1>
-                    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi delectus, cumque veniam deserunt sequi ab facilis recusandae illum libero incidunt iure omnis nam, ea magnam, assumenda aut. Eaque, obcaecati, asperiores!</div>
-                </h1>
-            </div>
+            <aside class="col-sm-7">
+                <ul class="list-group submenu">
+                    <li class="list-group-item active">Lorem ipsum</li>
+                    <li class="list-group-item"><a href="/donec/">Donec tincidunt ls oreet</a></li>
+                    <li class="list-group-item"><a href="/vestibulum/">Vestibulum el it</a></li>
+                    <li class="list-group-item"><a href="/etiam/">Etiam pharetra</a></li>
+                    <li class="list-group-item"><a href="/phasellus/">Phasellus placerat</a></li>
+                    <li class="list-group-item"><a href="/cras/">Cras et nisi vitae odio</a></li>
+                </ul>
+                <div class="panel panel-primary">
+                    <div class="panel-heading">Our offices</div>
+                    <div class="panel-body"><img src="/images/map.png" class="img-responsive" alt="Our offices"></div>
+                </div>
+            </aside>
+            <section class="col-sm-17">
+                <div class="jumbotron">
+                    <blockquote cite="">
+                        <p>
+                            "Quisque in enim velit? at dignissim est. nulla ul corper, dolor ac pellentesque placerat, justo tellus gravida erat, vel porttitor libero erat."
+                        </p>
+                        <small>
+                            John Doe, Lorem Ipsum
+                        </small>
+                    </blockquote>
+                </div>
+            </section>
         </div>
-    </header>
 
-    <div class="row">
-        <div class="col-sm-4">
-            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum eum quod necessitatibus accusantium dolorem est quia soluta omnis aperiam! Distinctio vero quidem modi, ratione placeat adipisci atque dignissimos consequuntur impedit.</div>
-            <div>Dolorum ducimus, labore sunt ipsam! Nobis, dolorum, distinctio? Veniam placeat officiis minima. Laborum, ullam possimus quasi nihil facilis quia voluptatibus? Velit voluptatum eum ab qui, facere reprehenderit ipsam dolorem voluptates.</div>
-            <div>Reiciendis, corporis vero incidunt rem. Illum nulla iure, minus architecto fuga voluptatibus laboriosam vel consectetur, repudiandae blanditiis veniam animi magni excepturi nihil asperiores, consequatur, id sapiente veritatis hic ab! Tenetur!</div>
-            <div>Quibusdam similique quasi provident. Voluptatem aut repudiandae cumque quae, magnam nam officiis eos id ducimus sed, eveniet provident, odio assumenda, debitis tempora reiciendis vero. Rem alias ab quaerat iure error.</div>
-            <div>Delectus repudiandae nesciunt nisi vitae expedita a, modi eligendi eos ad quae rerum ducimus molestiae itaque iure id debitis harum placeat, distinctio accusantium. Voluptates velit facilis sed illum deleniti ducimus.</div>
-        </div>
-        <div class="col-sm-4">
-            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis exercitationem sit in atque a, deserunt consectetur laboriosam cupiditate, expedita iure voluptatum nam ipsum, facilis. Accusantium harum est modi aliquam nesciunt?</div>
-            <div>Hic laudantium accusamus distinctio quas at eaque nisi commodi aperiam ullam esse dolore eius, fuga architecto reprehenderit voluptate velit vitae temporibus voluptatibus harum, tenetur magnam enim. Nulla quam exercitationem veritatis!</div>
-            <div>Adipisci voluptate fugiat omnis provident reiciendis animi officiis ipsam qui vel inventore quaerat id voluptatum dolore, facere, excepturi ullam itaque ipsa, facilis natus velit voluptatibus deserunt minus, totam. Ab, quam.</div>
-            <div>Quisquam laudantium itaque reiciendis dicta ipsum, ullam ipsam tempore illum rerum laboriosam, quidem dolor veritatis, sapiente atque illo eaque minus sequi dolores. Earum ipsa magnam consectetur, eveniet quod placeat itaque?</div>
-            <div>Magni praesentium nisi, ut dignissimos adipisci quo. Quibusdam, natus, culpa! Nostrum accusamus cupiditate recusandae. Explicabo fugit non ullam dolorem reprehenderit nobis ratione, eveniet sequi, nemo esse impedit, animi recusandae id.</div>
 
-        </div>
-        <div class="col-sm-4">
-            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto incidunt culpa, impedit accusamus quia, laudantium, quaerat laborum, cum repellendus a tempore! Assumenda dolor tempore nemo cum repellendus veritatis iste corrupti!</div>
-            <div>Libero vel amet porro dolor iusto! Labore repellendus omnis vero quaerat vel molestias, est cupiditate sint officia impedit, rem provident explicabo illum sapiente quas harum deserunt exercitationem quod voluptatibus, soluta?</div>
-            <div>Incidunt non odio quo minus nisi doloremque officia assumenda, itaque repudiandae nam cupiditate officiis fugiat laudantium voluptatem excepturi, dolor iste provident consequuntur consectetur dolorem. Aperiam expedita dignissimos nostrum est
-                voluptatibus?
-            </div>
-            <div>Odit, sint doloribus est temporibus repellendus possimus aut sequi expedita, quae, labore quos deleniti dolore eum! Quaerat libero quos minima, voluptatem rerum numquam dolore unde sint ea amet recusandae in.</div>
-            <div>Suscipit temporibus numquam beatae ratione officia exercitationem molestiae accusamus aut ea rerum consequatur officiis ab voluptate voluptas, optio, quasi expedita eum nesciunt error quaerat sapiente vitae ut enim ducimus veniam.</div>
-
-        </div>
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+        <script src="js/bootstrap.min.js"></script>
     </div>
+    <footer>
 
-
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    </footer>
 </body>
 
 </html>
