@@ -1,0 +1,44 @@
+@keyframes area1height {
+	0% {
+		top: 10px;
+		left: 60px;
+	}
+	10%{
+		top: 110px;
+		left: 70px;
+		transform: rotate(20deg);
+	}
+	20% {
+		top: 150px;
+		left: 50px;
+		transform: rotate(30deg);
+	}
+	100%{
+		top: 180px;
+		left: 30px;
+		transform: rotate(70deg);
+	}
+}
+body {
+	position: relative;
+	background: radial-gradient(at 22% 50%, #5c5c8a, #9494b8);
+	background-attachment: fixed;
+	text-align: center;
+	&:hover {
+		animation: area1height 3s forwards linear;
+	}
+	.tst1{
+		.button1{
+			width: 60px;
+			border: 1px solid black;
+			height: 40px;
+
+		}
+		.area1{
+			position: relative;
+			margin-top: 20px;
+			width: 200px;
+			border: 1px solid black;
+		}
+	}
+}

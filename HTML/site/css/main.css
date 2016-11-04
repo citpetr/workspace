@@ -1,0 +1,231 @@
+body {
+    font-family: sans-serif;
+    background-image: url(../images/360_07.png);
+}
+#allContent {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:link {
+    color: slategray;
+    text-decoration: none;
+}
+a:visited {
+    color: #708090;
+    text-decoration: none;
+}
+a:hover {
+    color: #708090;
+    text-decoration: none;
+}
+
+#header {
+    width: 600px;
+    background-color: lightgray;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 130%;
+}
+#tableContainer {
+    display: table;
+    border-spacing: 5px;
+}
+#tableRow {
+    display: table-row;
+}
+
+.buttonvid {
+    display: block;
+    width: 100px;
+    margin: 5px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    vertical-align: middle;
+    align-content: center;
+    border: 2px solid slateblue;
+    border-top: none;
+    border-bottom: none; 
+    border-left: none;
+    border-right: none;   
+    font-weight: bold;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    align-items: center;
+    background-color: lightgray;
+    box-shadow: 0 0 5px 2px;
+    text-align: center;
+}
+.buttonvid:hover {
+    margin-bottom: 11px;
+    margin-right: 0px;
+    border-top: none;
+    border-bottom: none;   
+    border: 2px solid yellow;
+    background-color: white;
+    box-shadow: inset 0 0 6px;
+}
+.buttonjs {
+    display: block;
+    width: 100px;
+    margin: 5px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    vertical-align: middle;
+    align-content: center;
+    border: 2px solid slateblue;
+    border-top: none;
+    border-bottom: none; 
+    border-left: none;
+    border-right: none;   
+    font-weight: bold;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    align-items: center;
+    background-color: lightgray;
+    box-shadow: 0 0 5px 2px;
+    text-align: center;
+}
+.buttonjs:hover {
+    margin-bottom: 11px;
+    margin-right: 0px;
+    border-top: none;
+    border-bottom: none;   
+    border: 2px solid yellow;
+    background-color: white;
+    box-shadow: inset 0 0 6px;
+}
+.buttonwiki {
+    display: block;
+    width: 100px;
+    margin: 5px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    vertical-align: middle;
+    align-content: center;
+    border: 2px solid slateblue;
+    border-top: none;
+    border-bottom: none; 
+    border-left: none;
+    border-right: none;   
+    font-weight: bold;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    align-items: center;
+    background-color: lightgray;
+    box-shadow: 0 0 5px 2px;
+    text-align: center;
+}
+.buttonwiki:hover {
+    margin-bottom: 11px;
+    margin-right: 0px;
+    border-top: none;
+    border-bottom: none;   
+    border: 2px solid yellow;
+    background-color: white;
+    box-shadow: inset 0 0 6px;
+}
+#main1 {
+    width: 22%;
+    vertical-align: top;
+    padding: 15px;
+    display: table-cell;
+    /*border: solid 1px black;*/
+}
+#main2 {
+    width: 60%;
+    vertical-align: top;
+    padding: 15px;
+    display: table-cell;
+}
+#main3 {
+    width: 30%;
+    vertical-align: top;
+    padding: 15px;
+    display: table-cell;
+}
+
+#footer {
+    text-align: center;
+    padding: 50px;
+    font-size: 70%;
+}
+
+
+@keyframes bouncingone {
+  0% {
+    left: 0;
+    top: 0;
+    box-shadow: 3px 3px 3px 3px gray; }
+  25% {
+    left: 300px;
+    top: 50px;
+    box-shadow: 1px 1px 1px 1px gray; }
+  50% {
+    left: 340px;
+    top: 120px; }
+  75% {
+    left: 10px;
+    top: 80px; }
+  100% {
+    left: 0;
+    top: 0;
+    transform: rotate(360deg); } }
+@keyframes bouncingtwo {
+  0% {
+    left: 0;
+    top: 0;
+    box-shadow: 3px 3px 3px 3px gray; }
+  25% {
+    left: 30px;
+    top: 250px;
+    box-shadow: 1px 1px 1px 1px gray; }
+  50% {
+    left: 140px;
+    top: 270px; }
+  75% {
+    left: 80px;
+    top: 30px; }
+  100% {
+    left: 0;
+    top: 0;
+    transform: rotate(-360deg); } }
+@keyframes bouncingthree {
+  0% {
+    left: 0;
+    top: 0;
+    box-shadow: 3px 3px 3px 3px gray; }
+  25% {
+    left: -50px;
+    top: -250px;
+    box-shadow: 1px 1px 1px 1px gray; }
+  50% {
+    left: 0;
+    top: -50px;
+    transform: rotate(360deg);}
+  75% {
+    left: 140px;
+    top: -30px; }
+  100% {
+    left: 0;
+    top: 0;
+    transform: rotate(-360deg); } }
+
+#main1:hover .buttonvid {
+  animation: bouncingone 6s ease-out infinite;
+  display: inline-block;
+  position: relative; }
+
+#main1:hover .buttonjs {
+  animation: bouncingtwo 8s ease-out infinite;
+  display: inline-block;
+  position: relative; }
+
+  #main1:hover .buttonwiki {
+  animation: bouncingthree 7s ease-out infinite;
+  display: inline-block;
+  position: relative; }
