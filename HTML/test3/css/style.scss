@@ -1,20 +1,38 @@
-@keyframes scaling{
-	0%{
-		transform: scale(1);
-		transform-origin: top;
-	}
-	100%{
-		transform: scale(1.1);
-		transform-origin: top;
-	}
+@keyframes scaling {
+    0% {
+        transform: scale(1);
+        transform-origin: top;
+    }
+    100% {
+        transform: scale(1.1);
+        transform-origin: top;
+    }
 }
+
+@keyframes headerRun {
+    0% {
+        top: -500px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+
 body {
-	div{
-		img.galleryimage{
-			&:hover{
-				animation: scaling 1.2s forwards;
-			}
-		}
-	}
-	
+    div.header1 {
+        position: relative;
+        text-align: center;
+        h1 {
+            position: relative;
+            font-family: sans-serif;
+            animation: headerRun 3s forwards;
+        }
+    }
+    div {
+        img.galleryimage {
+            &:hover {
+                animation: scaling 1.2s forwards;
+            }
+        }
+    }
 }

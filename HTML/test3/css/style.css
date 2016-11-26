@@ -5,6 +5,18 @@
   100% {
     transform: scale(1.1);
     transform-origin: top; } }
+@keyframes headerRun {
+  0% {
+    top: -500px; }
+  100% {
+    top: 0px; } }
+body div.header1 {
+  position: relative;
+  text-align: center; }
+  body div.header1 h1 {
+    position: relative;
+    font-family: sans-serif;
+    animation: headerRun 3s forwards; }
 body div img.galleryimage:hover {
   animation: scaling 1.2s forwards; }
 

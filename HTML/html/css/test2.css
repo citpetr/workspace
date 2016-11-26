@@ -1,0 +1,36 @@
+@import url(../fonts/augustatwo.css);
+@import url(../fonts/fortunagothic.css);
+@import url(../fonts/abeezee.css);
+@font-face{
+    font-family: abeezee;
+    src:    url(../fonts/abeezee.ttf),
+            url(../fonts/abeezee.woff);
+} 
+@font-face {
+    font-family: augustatwo;
+    src:    url(../fonts/augustatwo.ttf),
+            url(../fonts/augustatwo.woff);
+}
+@font-face {
+    font-family: fortunagothic;
+    src:    url(../fonts/fortunagothicflorishc.ttf),
+            url(../fonts/fortunagothicflorishc.woff);
+}
+body {
+    background-color: burlywood;
+    text-align: center;
+}
+h1 {
+    font-family: fortunagothic, sans-serif;
+    font-size: 500%;
+    font-weight: 100;
+}
+h2 {
+    font-family: augustatwo;
+    color: teal;
+    font-size: 250%;
+}
+h3 {
+    font-family: abeezee;
+    font-size: 200%;
+}
