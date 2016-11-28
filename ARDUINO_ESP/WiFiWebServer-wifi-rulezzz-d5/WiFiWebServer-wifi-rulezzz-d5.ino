@@ -25,6 +25,8 @@ void setup() {
   digitalWrite(14, 0);
   pinMode(15, OUTPUT);
   digitalWrite(15, 0);
+  pinMode(16, OUTPUT);
+  digitalWrite(16, 0);
   
   // Connect to WiFi network
   Serial.println();
@@ -70,14 +72,37 @@ void loop() {
   // Match the request
   int val;
   int val1;
+  int val2;
   if (req.indexOf("/offred") != -1)
+    {
     val = 0;
+    digitalWrite(14, val);
+    }
   else if (req.indexOf("/onred") != -1)
+    {
     val = 1;
+    digitalWrite(14, val);
+    }
   else if (req.indexOf("/offgreen") != -1)
+    {
     val1 = 0;
+    digitalWrite(15, val1);
+    }
   else if (req.indexOf("/ongreen") != -1)
+    {
     val1 = 1;
+    digitalWrite(15, val1);
+    }
+  else if (req.indexOf("/offrelay") != -1)
+    {
+    val2 = 0;
+    digitalWrite(16, val2);
+    }
+  else if (req.indexOf("/onrelay") != -1)
+    {
+    val2 = 1;
+    digitalWrite(16, val2);
+    }
   else {
     Serial.println("invalid request");
     client.stop();
@@ -85,8 +110,6 @@ void loop() {
   }
 
   // Set GPIO2 according to the request
-  digitalWrite(14, val);
-  digitalWrite(15, val1);
   
   client.flush();
 
