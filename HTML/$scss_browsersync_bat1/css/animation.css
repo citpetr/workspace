@@ -1,0 +1,10 @@
+@keyframes bouncing {
+  0% {
+    left: 0;
+    top: 0; }
+  100% {
+    left: 0;
+    top: -1px;
+    box-shadow: 2px 2px 2px darkslategrey; } }
+
+/*# sourceMappingURL=animation.css.map */
