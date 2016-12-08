@@ -1,4 +1,5 @@
 body {
+<<<<<<< HEAD
   width: 100%;
   position: absolute;
   background-image: linear-gradient(#555555, #BDBAB9, #F0F0F0);
@@ -47,5 +48,35 @@ body {
             padding-right: 7px;
             font-size: 10pt;
             color: darkslateblue; }
+=======
+  background-color: honeydew;
+  font-family: sans-serif; }
+  body div.content {
+    margin: auto;
+    padding: 10px;
+    width: 70%;
+    box-shadow: darkseagreen 0px 0px 5px; }
+    body div.content div.menu {
+      position: relative;
+      top: 5px;
+      left: 12%; }
+      body div.content div.menu ul {
+        padding: 0px; }
+        body div.content div.menu ul li {
+          display: inline-block;
+          list-style-type: none; }
+          body div.content div.menu ul li a {
+            text-decoration: none; }
+    body div.content div.tableContainer {
+      display: table;
+      width: 100%; }
+      body div.content div.tableContainer div.tableRow {
+        display: table-row; }
+        body div.content div.tableContainer div.tableRow div.goodsCell {
+          display: table-cell;
+          text-align: center; }
+          body div.content div.tableContainer div.tableRow div.goodsCell a img {
+            border: solid 1px lightgray; }
+>>>>>>> 2a3462745f3fe84510a4fc2d181bdba44f94d0f4
 
 /*# sourceMappingURL=style.css.map */
