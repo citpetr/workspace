@@ -10,7 +10,7 @@
         ],
         "sourceMaps": true,
         "outFiles": [
-            "${workspaceRoot}/out/test.js"
+            "${workspaceRoot}/test.js"
         ],
         "preLaunchTask": "npm"
     }]

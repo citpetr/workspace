@@ -4,7 +4,7 @@
         "name": "Запустить",
         "type": "node",
         "request": "launch",
-        "program": "${workspaceRoot}/HTML/test1.js",
+        "program": "${workspaceRoot}/HTML/test.js",
         "stopOnEntry": false,
         "args": [],
         "cwd": "${workspaceRoot}",

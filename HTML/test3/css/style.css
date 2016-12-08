@@ -1,23 +1,31 @@
-@keyframes scaling {
-  0% {
-    transform: scale(1);
-    transform-origin: top; }
-  100% {
-    transform: scale(1.1);
-    transform-origin: top; } }
-@keyframes headerRun {
-  0% {
-    top: -500px; }
-  100% {
-    top: 0px; } }
-body div.header1 {
-  position: relative;
-  text-align: center; }
-  body div.header1 h1 {
-    position: relative;
-    font-family: sans-serif;
-    animation: headerRun 3s forwards; }
-body div img.galleryimage:hover {
-  animation: scaling 1.2s forwards; }
+body {
+  background-color: honeydew;
+  font-family: sans-serif; }
+  body div.content {
+    margin: auto;
+    padding: 10px;
+    width: 70%;
+    box-shadow: darkseagreen 0px 0px 5px; }
+    body div.content div.menu {
+      position: relative;
+      top: 5px;
+      left: 12%; }
+      body div.content div.menu ul {
+        padding: 0px; }
+        body div.content div.menu ul li {
+          display: inline-block;
+          list-style-type: none; }
+          body div.content div.menu ul li a {
+            text-decoration: none; }
+    body div.content div.tableContainer {
+      display: table;
+      width: 100%; }
+      body div.content div.tableContainer div.tableRow {
+        display: table-row; }
+        body div.content div.tableContainer div.tableRow div.goodsCell {
+          display: table-cell;
+          text-align: center; }
+          body div.content div.tableContainer div.tableRow div.goodsCell a img {
+            border: solid 1px lightgray; }
 
 /*# sourceMappingURL=style.css.map */
