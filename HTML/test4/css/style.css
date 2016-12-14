@@ -1,34 +1,17 @@
-@keyframes area1height {
-  0% {
-    top: 10px;
-    left: 60px; }
-  10% {
-    top: 110px;
-    left: 70px;
-    transform: rotate(20deg); }
-  20% {
-    top: 150px;
-    left: 50px;
-    transform: rotate(30deg); }
-  100% {
-    top: 180px;
-    left: 30px;
-    transform: rotate(70deg); } }
-body {
-  position: relative;
-  background: radial-gradient(at 22% 50%, #5c5c8a, #9494b8);
-  background-attachment: fixed;
-  text-align: center; }
-  body:hover {
-    animation: area1height 3s forwards linear; }
-  body .tst1 .button1 {
-    width: 60px;
-    border: 1px solid black;
-    height: 40px; }
-  body .tst1 .area1 {
-    position: relative;
-    margin-top: 20px;
-    width: 200px;
-    border: 1px solid black; }
+body div.content div.navbar {
+  text-align: center;
+  width: 100%;
+  border: solid 1px gray; }
+  body div.content div.navbar div.butt1 {
+    display: inline-block;
+    border: solid 1px gray;
+    width: 40px;
+    height: 20px;
+    line-height: 20px; }
+body div.content div.testcon {
+  width: 100%;
+  border: 1px solid green;
+  height: 400px;
+  color: red; }
 
 /*# sourceMappingURL=style.css.map */
