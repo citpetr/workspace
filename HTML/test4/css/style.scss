@@ -1,0 +1,22 @@
+body {
+    div.content {
+        div.navbar {
+            text-align: center;
+            width: 100%;
+            border: solid 1px gray;
+            div.butt1 {
+                display: inline-block;
+                border: solid 1px gray;
+                width: 40px;
+                height: 20px;
+                line-height: 20px;
+            }
+        }
+        div.testcon {
+            width: 100%;
+            border: 1px solid green;
+            height: 400px;
+            color: red;
+        }
+    }
+}
