@@ -1,0 +1,15 @@
+body {
+    background-color: gray;
+}
+
+body div.mainContainer{
+    color: red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+body div.mainContainer div.content{
+    border: 1px solid gray;
+}

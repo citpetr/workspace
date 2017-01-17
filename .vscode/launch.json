@@ -4,7 +4,7 @@
         "name": "Запустить",
         "type": "node",
         "request": "launch",
-        "program": "${workspaceRoot}/HTML/test.js",
+        "program": "${workspaceRoot}/HTML/test5smpl/js/script.js",
         "stopOnEntry": false,
         "args": [],
         "cwd": "${workspaceRoot}",
