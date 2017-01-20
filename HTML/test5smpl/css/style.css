@@ -3,13 +3,23 @@ body {
 }
 
 body div.mainContainer{
-    color: red;
+    color: floralwhite;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-around;
+    display: -webkit-flex;
+}
+body div.mainContainer div.good {
+    border: solid 1px darkturquoise;
+    width: 100px;
+    text-align: center;
+    font-family: sans-serif;
+    margin: 5px;
 }
 
-body div.mainContainer div.content{
-    border: 1px solid gray;
+#num3 {
+    flex-grow: 4;
 }
+
+
