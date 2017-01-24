@@ -1,0 +1,40 @@
+
+body {
+    color: blue;
+    #logo {
+        position: relative;
+        left: 10%;
+        color: green;
+    }
+
+    .flexcontainer{
+        width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: lightgray;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        border-radius: 15px;
+        .good {
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-top: 10px;
+            margin-bottom: 10px;
+
+        }
+        .image{
+            margin: 1%;
+        }
+        #touchPane{
+            width: 70%;
+            height: 200px;
+            background-color: azure;
+        }
+        #touchText{
+            margin: 20px;
+            width: 20%;
+        }
+    }
+}

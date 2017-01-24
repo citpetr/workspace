@@ -1,0 +1,32 @@
+body {
+  color: blue; }
+  body #logo {
+    position: relative;
+    left: 10%;
+    color: green; }
+  body .flexcontainer {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    border-radius: 15px; }
+    body .flexcontainer .good {
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 10px;
+      margin-bottom: 10px; }
+    body .flexcontainer .image {
+      margin: 1%; }
+    body .flexcontainer #touchPane {
+      width: 70%;
+      height: 200px;
+      background-color: azure; }
+    body .flexcontainer #touchText {
+      margin: 20px;
+      width: 20%; }
+
+/*# sourceMappingURL=style.css.map */
