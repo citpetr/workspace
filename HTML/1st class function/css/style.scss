@@ -1,0 +1,31 @@
+$button-margin: 5px;
+$button_width: 30px;
+$double-buttob-width: 2*$button_width+(2*$button-margin);
+body {
+    .calculator {
+        width: 200px;
+        background-color: grey;
+        form {
+            .flexline {
+                text-align: center;
+                margin: 5px;
+                display: flex;
+                .display {
+                    width: 185px;
+                    size: 20;
+                    font-size: 16pt;
+                    margin-top: 5px;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+                button {
+                    margin: $button-margin;
+                    width: $button_width;
+                }
+                .doubleWidth {
+                    width: $double-buttob-width;
+                }
+            }
+        }
+    }
+}

@@ -1,32 +1,21 @@
-body {
-  color: blue; }
-  body #logo {
-    position: relative;
-    left: 10%;
-    color: green; }
-  body .flexcontainer {
-    width: 50%;
-    margin-right: auto;
-    margin-left: auto;
-    background-color: lightgray;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    border-radius: 15px; }
-    body .flexcontainer .good {
-      margin-left: 5%;
-      margin-right: 5%;
-      margin-top: 10px;
-      margin-bottom: 10px; }
-    body .flexcontainer .image {
-      margin: 1%; }
-    body .flexcontainer #touchPane {
-      width: 70%;
-      height: 200px;
-      background-color: azure; }
-    body .flexcontainer #touchText {
-      margin: 20px;
-      width: 20%; }
+body .calculator {
+  width: 200px;
+  background-color: grey; }
+  body .calculator form .flexline {
+    text-align: center;
+    margin: 5px;
+    display: flex; }
+    body .calculator form .flexline .display {
+      width: 185px;
+      size: 20;
+      font-size: 16pt;
+      margin-top: 5px;
+      margin-left: auto;
+      margin-right: auto; }
+    body .calculator form .flexline button {
+      margin: 5px;
+      width: 30px; }
+    body .calculator form .flexline .doubleWidth {
+      width: 70px; }
 
 /*# sourceMappingURL=style.css.map */
