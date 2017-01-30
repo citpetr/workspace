@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>FIRST CLASS FUNCTION</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <div class="electro">
+
+        <form>
+            <img src="img/lamp.png" width="15%" alt="">
+            <div class="flexcontainer">
+                <div class="itemOne">
+                    <span>ТЕКУЩИЕ ПОКАЗАНИЯ ОБЩЕГО СЧЕЧИКА</span>
+                    <br>
+                    <input type="" name="" value="" size="10" id="total">
+                </div>
+                <div class="itemOne">
+                    <span>ПОКАЗАНИЯ ОБЩЕГО СЧЕЧИКА ЗА ПРЕДЫДУЩИЙ ПЕРИОД</span>
+                    <br>
+                    <input type="" name="" value="" size="10" id="totalPrevious">
+                </div>
+                <div class="itemOne">
+                    <span>СТОИМОСТЬ 1 КВт</span>
+                    <br>
+                    <input type="" name="" value="" size="10" id="cost">
+                </div>
+            </div>
+            <div class="flexcontainer">
+                <div class="itemOne">
+                    <span>ТЕКУЩИЕ ПОКАЗАНИЯ. <span class="scndName">Канахины</span> </span>
+                    <br>
+                    <input type="" name="" value="" size="10" id="kaRoom">
+                </div>
+                <div class="itemOne">
+                    <span>ТЕКУЩИЕ ПОКАЗАНИЯ. <span class="scndName">Шарнин</span> </span>
+                    <br>
+                    <input type="" name="" value="" size="10" id="shRoom">
+                </div>
+                <div class="itemOne">
+                    <span>ТЕКУЩИЕ ПОКАЗАНИЯ. <span class="scndName">Юрищев</span> </span>
+                    <br>
+                    <input type="" name="" value="" size="10" id="yuRoom">
+                </div>
+            </div>
+            <div class="flexcontainer">
+                <div class="itemOne">
+                    <span>ПРЕДЫДУЩИЕ ПОКАЗАНИЯ. <span class="scndName">Канахины</span> </span>
+                    <br>
+                    <input type="" name="" value="" size="10" id="kaRoomPrevious">
+                </div>
+                <div class="itemOne">
+                    <span>ПРЕДЫДУЩИЕ ПОКАЗАНИЯ. <span class="scndName">Шарнин</span> </span>
+                    <br>
+                    <input type="" name="" value="" size="10" id="shRoomPrevious">
+                </div>
+                <div class="itemOne">
+                    <span>ПРЕДЫДУЩИЕ ПОКАЗАНИЯ. <span class="scndName">Юрищев</span> </span>
+                    <br>
+                    <input type="" name="" value="" size="10" id="yuRoomPrevious">
+                </div>
+            </div>
+            <div class="div" id="process">РАССЧЕТ</div>
+        </form>
+
+
+    </div>
+    <br>
+    <div class="result">
+        <table>
+            <tr>
+                <th>Старые <br> показания</th>
+                <th>Текущие <br> показания</th>
+                <th>Израсходовано <br>КВт*ч</th>
+                <th>Сумма (всего)</th>
+                <th>Общий свет <br>(КВт*ч)</th>
+                <th>Общий свет <br>(руб)</th>
+                <th>Общий свет <br> (с комнаты, руб)</th>
+            </tr>
+            <tr>
+                <td id="komOldValue">....</td>
+                <td id="komNewValue">...</td>
+                <td id="komDifference">...</td>
+                <td id="costVal">...</td>
+                <td id="komVal">...</td>
+                <td id="komCost">...</td>
+                <td id="komCostPerRoom">...</td>
+            </tr>
+        </table>
+        <br>
+        <table>
+            <tr>
+                <th>Фамилия</th>
+                <th>Старые <br>показания</th>
+                <th>Новые <br>показания</th>
+                <th>Израсходовано <br>КВт*ч</th>
+                <th>Сумма <br>(за комнату)</th>
+                <th>Сумма <br>(с общим светом)</th>
+            </tr>
+            <tr>
+                <th>Канахины</th>
+                <td id="kaOldValue">....</td>
+                <td id="kaNewValue">...</td>
+                <td id="kaDifference">...</td>
+                <td id="kaCost">...</td>
+                <td id="kaFullCost">...</td>
+            </tr>
+            <tr>
+                <th>Шарнин</th>
+                <td id="shOldValue">....</td>
+                <td id="shNewValue">...</td>
+                <td id="shDifference">...</td>
+                <td id="shCost">...</td>
+                <td id="shFullCost">...</td>
+            </tr>
+            <tr>
+                <th>Юрищев</th>
+                <td id="yuOldValue">....</td>
+                <td id="yuNewValue">...</td>
+                <td id="yuDifference">...</td>
+                <td id="yuCost">...</td>
+                <td id="yuFullCost">...</td>
+            </tr>
+        </table>
+    </div>
+
+    <script src='js/script.js'>
+    </script>
+</body>
+
+</html>

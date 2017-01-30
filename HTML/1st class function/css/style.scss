@@ -1,31 +1,32 @@
-$button-margin: 5px;
-$button_width: 30px;
-$double-buttob-width: 2*$button_width+(2*$button-margin);
 body {
-    .calculator {
-        width: 200px;
-        background-color: grey;
+    .electro {
         form {
-            .flexline {
-                text-align: center;
-                margin: 5px;
+            background-color: lightgrey;
+            width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+            align-items: stretch;
+            .flexcontainer {
                 display: flex;
-                .display {
-                    width: 185px;
-                    size: 20;
-                    font-size: 16pt;
-                    margin-top: 5px;
-                    margin-left: auto;
-                    margin-right: auto;
-                }
-                button {
-                    margin: $button-margin;
-                    width: $button_width;
-                }
-                .doubleWidth {
-                    width: $double-buttob-width;
+                justify-content: space-around;
+                .itemOne {
+                    font-family: sans-serif;
+                    font-weight: bold;
+                    margin: 5px;
+                    width: 250px;
+                    padding: 5px;
+                    border: solid 1px gray;
+                    input {
+                        font-size: 12pt;
+                    }
                 }
             }
+        }
+        .processingInfo {
+            width: 550px;
+            height: 300px;
+            padding: 5px;
+            border: 1px red solid;
         }
     }
 }

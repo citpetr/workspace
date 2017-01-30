@@ -1,0 +1,63 @@
+body {
+  background-color: papayawhip; }
+  body .electro {
+    border: 1px solid gray;
+    padding: 10px; }
+    body .electro img {
+      display: block;
+      margin: auto; }
+    body .electro form {
+      width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+      align-items: stretch; }
+      body .electro form .flexcontainer {
+        display: flex;
+        justify-content: space-around; }
+        body .electro form .flexcontainer .itemOne {
+          text-align: center;
+          font-family: sans-serif;
+          font-size: 11pt;
+          font-weight: bold;
+          margin: 5px;
+          width: 250px;
+          padding: 5px;
+          border: solid 1px gray; }
+          body .electro form .flexcontainer .itemOne .scndName {
+            font-size: 14pt;
+            text-decoration: underline; }
+          body .electro form .flexcontainer .itemOne input {
+            font-size: 12pt; }
+      body .electro form #process {
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 10pt;
+        display: block;
+        border: 2px solid cornflowerblue;
+        width: 15%;
+        line-height: 40px;
+        height: 40px;
+        text-align: center;
+        border-radius: 5px;
+        margin: auto;
+        cursor: pointer;
+        box-shadow: 0px 0px 10px darkgray; }
+        body .electro form #process:hover {
+          background-color: azure; }
+        body .electro form #process:active {
+          box-shadow: 0px 0px 1px darkgrey;
+          background-color: antiquewhite; }
+  body table {
+    border-collapse: collapse;
+    margin: auto;
+    font-family: sans-serif;
+    font-size: 10pt; }
+    body table tr td,
+    body table tr th {
+      border: 1px solid #333;
+      padding: 5px; }
+    body table tr td {
+      background-color: azure;
+      text-align: right; }
+
+/*# sourceMappingURL=style.css.map */
