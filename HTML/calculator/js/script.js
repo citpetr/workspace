@@ -1,19 +1,43 @@
-$("#test").click(function() {
-    $("test").append("<br>" + "slkdfjslkjflksjdflksdjf" + "<br>" + "sdfhs,dlfhn,sldnflkshdf").css("padding", "5px").css("background-color", "lightgreen").css("color", "darkgrey").css("border", "solid 1px black").animate({ width: 200 }, 3000).animate({ height: 400 }, 3000).css("position", "relative").animate({ left: 100 }, 2000).append("<br>" + "slkdfjslkjflksjdflksdjf" + "<br>" + "sdfhs,dlfhn,sldnflkshdf");
+$("#num1").click(function() {
+    var x = $("#display").val() + "1";
+    $("#display").val(x);
 });
-$("#hohoho").css("height", "100").css("padding", "5px").css("background-color", "yellow").css("color", "darkgrey").css("border", "solid 1px black").animate({ width: 250 }, 3000).animate({ "border-radius": "20px", opacity: .4 }, 1500).animate({ height: 400 }, 3000);
-$("#hohoho").css("position", "relative").animate({ left: 100 }, 2000);
-$("hohoho").click(function() {
-    $("hohoho").animate({ top: 300 }, 2000);
+$("#num2").click(function() {
+    var x = $("#display").val() + "2";
+    $("#display").val(x);
 });
-
-
-$("#test").click(function() {
-    $("#hohoho").animate({
-        opacity: 0.25,
-        left: "+=50",
-        height: "toggle"
-    }, 5000, function() {
-        // Animation complete.
-    });
+$("#num3").click(function() {
+    var x = $("#display").val() + "3";
+    $("#display").val(x);
+});
+$("#num4").click(function() {
+    var x = $("#display").val() + "4";
+    $("#display").val(x);
+});
+$("#num5").click(function() {
+    var x = $("#display").val() + "5";
+    $("#display").val(x);
+});
+$("#num6").click(function() {
+    var x = $("#display").val() + "6";
+    $("#display").val(x);
+});
+$("#num7").click(function() {
+    var x = $("#display").val() + "7";
+    $("#display").val(x);
+});
+$("#num8").click(function() {
+    var x = $("#display").val() + "8";
+    $("#display").val(x);
+});
+$("#num9").click(function() {
+    var x = $("#display").val() + "9";
+    $("#display").val(x);
+});
+$("#num0").click(function() {
+    var x = $("#display").val() + "0";
+    $("#display").val(x);
+});
+$("#numClr").click(function() {
+    $("#display").val("");
 });

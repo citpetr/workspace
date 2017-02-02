@@ -1,1 +1,48 @@
-body {}
+@font-face {
+    font-family: liquid;
+    /* Гарнитура шрифта */
+    src: url(../fonts/dsdigi.ttf);
+    /* Путь к файлу со шрифтом */
+}
+
+body {
+    font-family: liquid;
+    form {
+        width: 286px;
+        padding: 15px;
+        background-color: lightgray;
+        input {
+            font-family: liquid;
+            font-size: 24pt;
+            text-align: right;
+            background-color: deepskyblue;
+            color: black;
+        }
+        .buttonRow {
+            cursor: default;
+            user-select: none;
+            .button {
+                font-family: liquid;
+                font-size: 20pt;
+                cursor: pointer;
+                display: inline-block;
+                width: 50px;
+                height: 30px;
+                border: 1px solid black;
+                border-radius: 3px;
+                text-align: center;
+                line-height: 30px;
+                margin: 1px;
+                margin-top: 4px;
+                user-select: none;
+                box-shadow: 1px 2px 5px gray;
+                &:hover {
+                    background-color: antiquewhite;
+                }
+                &:active {
+                    box-shadow: 0px 1px 5px gray;
+                }
+            }
+        }
+    }
+}
