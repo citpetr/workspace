@@ -84,3 +84,5 @@ function rasschet(secondName, roomPreviousValue, roomCurrentValue, roomDifferenc
     roomFullCostValue.innerHTML = (roomFullCost);
 
 }
+
+// Такая вот борода
