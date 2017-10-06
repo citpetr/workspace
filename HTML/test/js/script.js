@@ -1,5 +1,1 @@
-window.onload = action();
-
-function action() {
-
-}
+document.write("HELLO WORLD!!!");
