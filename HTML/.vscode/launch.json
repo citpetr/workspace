@@ -1,17 +1,26 @@
 {
     "version": "0.2.0",
-    "configurations": [{
-        "name": "Запуск расширения",
-        "type": "extensionHost",
-        "request": "launch",
-        "runtimeExecutable": "${execPath}",
-        "args": [
-            "--extensionDevelopmentPath=${workspaceRoot}"
-        ],
-        "sourceMaps": true,
-        "outFiles": [
-            "${workspaceRoot}/test.js"
-        ],
-        "preLaunchTask": "npm"
-    }]
+    "configurations": [
+
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "${workspaceRoot}/test/js/script.js"
+        },
+        {
+            "name": "Запуск расширения",
+            "type": "extensionHost",
+            "request": "launch",
+            "runtimeExecutable": "${execPath}",
+            "args": [
+                "--extensionDevelopmentPath=${workspaceRoot}"
+            ],
+            "sourceMaps": true,
+            "outFiles": [
+                "${workspaceRoot}/test.js"
+            ],
+            "preLaunchTask": "npm"
+        }
+    ]
 }

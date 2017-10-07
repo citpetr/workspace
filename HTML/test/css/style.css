@@ -1,5 +1,5 @@
 body div#maincontainer {
-    background-color: lightcyan;
+    background-color: #5D97AA;
     width: 70%;
     margin-left: auto;
     margin-right: auto;
@@ -11,26 +11,6 @@ body div#maincontainer header {
     text-align: center;
     margin: 20px;
     padding-top: 20px;
-}
-
-body div#maincontainer div#menu {
-    background-color: darkgrey;
     height: 50px;
-}
-
-body div#maincontainer div#menu span {
-    background-color: blanchedalmond;
-    display: inline-block;
-    font-family: sans-serif;
-    font-size: 1.2em;
-    padding: 15px;
-    margin: 5px;
-}
-
-body div#maincontainer div#menu span:hover {
-    display: inline-block;
-    font-family: sans-serif;
-    font-size: 1.4em;
-    margin: 0px;
-    padding: 0px;
+    line-height: 50px;
 }
