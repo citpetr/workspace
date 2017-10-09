@@ -6,7 +6,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceRoot}/test/js/script.js"
+            "program": "${workspaceRoot}/scr.js"
         },
         {
             "name": "Запуск расширения",
